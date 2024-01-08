@@ -4,7 +4,7 @@ const API_URL = "/api/user/";
 
 const sign_in = async (data) => {
   const response = await axios.post(API_URL + "register", data);
-  console.log(response);
+
   localStorage.setItem("user", JSON.stringify(response.data));
   return response.data;
 };

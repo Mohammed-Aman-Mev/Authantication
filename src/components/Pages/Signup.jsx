@@ -52,7 +52,7 @@ const Signup = () => {
 
   useEffect(() => {
     if (user) {
-      navigate("/");
+      navigate("/home");
     }
   }, [user, isLoading, isSuccess, isError, message]);
 
@@ -65,7 +65,7 @@ const Signup = () => {
         display: "flex",
         flexDirection: "column",
         paddingX: "15%",
-        paddingY:"5%",
+        paddingY: "5%",
         // width: "500px",
         height: "400px",
         // display: "flex",

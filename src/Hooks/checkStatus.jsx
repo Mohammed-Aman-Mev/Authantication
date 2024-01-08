@@ -15,6 +15,7 @@ export const CheckStatus = () => {
       setLogin(false);
     }
 
+    
     setStatus(true);
   });
 
